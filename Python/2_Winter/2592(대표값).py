@@ -11,7 +11,7 @@ for i in range(10):
 for i in range(10):
     temp[0] = arr[i]
     temp[1] = 0
-    for j in range(i+1, len(arr)):
+    for j in range(i, len(arr)):
         if temp[0] == arr[j]:
             temp[1] += 1
     if temp[1] > value[1]:

@@ -18,5 +18,4 @@ for i in range(len(arr1)):
 
 result1 = sum(arr2)
 print(result1)
-# print(arr3)
 print(" ".join(map(str, arr3)))

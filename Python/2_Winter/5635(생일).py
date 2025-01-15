@@ -1,3 +1,4 @@
+#key, lambda 첫 사용
 n = int(input())
 people = []
 
